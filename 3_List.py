@@ -59,3 +59,61 @@ Marvel_Character.extend(DC_Character)
 #Not making a sub list.
 print(Marvel_Character)
 
+Integer_List = [1, 2, 3, 4, 5]
+
+"""pop function removes last item it can also return value of removed
+item"""
+Integer_List.pop()
+
+print(Integer_List)
+
+Last_Item = Integer_List.pop()
+
+print(Last_Item)
+
+Game_List = ["Foot Ball", "Basket Ball", "Tennis", "Chess",
+             "Carrom Board"]
+
+#Reverse function reverses the element index in the list.
+Game_List.reverse()
+
+print(Game_List)
+
+Game_List.sort()
+
+print(Game_List)
+
+Game_List.sort(reverse = True)
+
+print(Game_List)
+
+#Gives the same list as sorted list but not in reverse way.
+Original_Old_Game_List = sorted(Game_List)
+
+print(Original_Old_Game_List)
+
+Number_List = [5, 3, 7, -1]
+
+BigNumberInList, SmallNumberInList = max(Number_List), min(Number_List)
+SumOfElementInList = sum(Number_List)
+
+print(str(BigNumberInList) + ", "
+      + str(SmallNumberInList) + " and " + str(SumOfElementInList))
+
+Animal_List = ["Lion", "Tiger", "Bengal Tiger"]
+
+#To find element index in the list otherwise valueerror occurs.
+print(Animal_List.index("Bengal Tiger"))
+
+#To check the element present in the list otherwise False.
+print("Lion" in Animal_List)
+
+"""Making the List into the string by having a special character
+in between."""
+Animal_List_String = "-- ".join(Animal_List)
+
+print(Animal_List_String)
+
+Old_Animal_List = Animal_List_String.split("-- ")
+
+print(Old_Animal_List)
