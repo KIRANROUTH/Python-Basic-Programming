@@ -32,7 +32,7 @@ print(Fruit_List)
 
 #Making a sub list.
 eatable_List = [["Potato", "Carrot"],["Glucose", "Energy drink"],
-                "Chocolate"]
+                "Chocolate", "Ice Cream"]
 eatable_List.insert(1, Fruit_List)
 
 print(eatable_List)
