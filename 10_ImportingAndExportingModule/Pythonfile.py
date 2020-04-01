@@ -17,5 +17,8 @@ courses=['History','math','physics','compsci']
 index=FI(courses,'physics')
 
 print(index)
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> e58f9d753d42ed589b79667eadd6224767bdcffa
