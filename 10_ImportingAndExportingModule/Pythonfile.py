@@ -17,11 +17,5 @@ courses=['History','math','physics','compsci']
 index=FI(courses,'physics')
 
 print(index)
-print(T)
 
-'''
-To know how to set a module as global means we can import from any location
-See the link: https://www.youtube.com/watch?v=CqvZ3vGoGs0&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU&index=9
-From time: 11:44 to 13:8
-'''
 
