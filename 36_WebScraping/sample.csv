@@ -1,0 +1,15 @@
+  Excel  CSV, It is a binary file that holds information about all the worksheets in a workbook
+CSV stands for Comma Separated Values. It is a plain text format with a series of values separated by commas,  An Excel not only stores data but can also do operations on the data
+" A CSV file is just a text file, it stores data but does not contain formatting, formulas, macros, etc. It is also known as flat files",  Excel is a spreadsheet that saves files into its own proprietary format viz xls or xlsx
+CSV is a format for saving tabular information into a delimited text file with extension .csv,  Files saved in excel cannot be opened or edited by text editors
+CSV files can be opened or edited by text editors like notepad,"  In data-warehouse, Excel is preferable for detailed standardized schema specification"
+"In data-warehouse, CSV follows a fairly flat, simple schema","  Any programming language library to parse Excel data is generally larger, slower and complicated"
+"Any programming language to parse CSV data is trivial, generating it is extremely easy","  With no clear distinction or separation between numeric values and text, Excel can mess up with your postal codes and credit card numbers with its auto formatting features"
+CSV is safe and can clearly differentiate between the numeric values and text. CSV does not manipulate data and stores it as-is.,"   In Excel, you have to have a start tag and end tag for each column in each row"
+"In CSV, you write column headers only once",  Excel consumes more memory while importing data
+"Importing CSV files can be much faster, and it also consumes less memory","  Reading large files user is much easier in Excel for the end user. Also, you can have additional functions like selecting individual cells for import, convert dates and time automatically, reading formulas and their results, filters, sorting, etc."
+Reading large files in CSV will not be as easier as Excel for the End User,"  Apart from text, data can also be stored in form of charts and graphs"
+"Each record is stored as one line of a text file, and every newline signifies a new database row. CSV can not store charts or graphs",  Excel file can be opened with Microsoft Excel doc only
+"CSV can be opened with any text editor in Windows like notepad, MS Excel, Microsoft Works 9, etc.",   Excel can connect to external data sources to fetch data. You can use custom add-in in Excel to increase its functionality. Excel allows for Review of Data with detailed tracking and commenting feature.
+ All this functionality is not possible in CSV,"  As a developer, it's difficult to programmatically manipulate Excel files since the Excel is proprietary. This is especially true for languages other than .NET"
+"As a developer it's easy to programmatically manipulate CSV since, after all, they are simple text files.",
